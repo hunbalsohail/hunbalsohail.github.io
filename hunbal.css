@@ -42,6 +42,10 @@ img{margin-bottom:-5px}
 a{color:inherit}
 table{border-collapse:collapse;border-spacing:0;width:100%;display:table}
 table,th,td{border:none}
+.colourchange {-webkit-animation: animate_bg 5s;animation: animate_bg 5s;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;}
+@keyframes animate_bg {0%   {background:#009ED4;}25%   {background:#2FC200;}50%  {background:#D40000;}75%   {background:#D6D400;}100% {background:009ED4;}}
+@keyframes animate_bg {0%   {background:#009ED4;}25%   {background:#2FC200;}50%  {background:#D40000;}75%   {background:#D6D400;}100% {background:009ED4;}}
+@-webkit-keyframes animate_bg {0%   {background:#009ED4;}25%   {background:#2FC200;}50%  {background:#D40000;}75%   {background:#D6D400;}100% {background:009ED4;}}
 .hunbal-table-all{border:1px solid #ccc}
 .hunbal-bordered tr,.hunbal-table-all tr{border-bottom:1px solid #ddd}
 .hunbal-striped tbody tr:nth-child(even){background-color:#f1f1f1}
