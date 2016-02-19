@@ -8,6 +8,24 @@ About
 <link rel="stylesheet" href="hunbal.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900,500' rel='stylesheet' type='text/css'>
+<style> 
+#colourtext {
+    width: 300px;
+    color: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {color: blue;}
+}
+</style>
  </head>
  <body>
 <div class="hunbal-topnav hunbal-xlarge hunbal-blue colourchange">
@@ -47,9 +65,12 @@ Contact
 </header>
 <div class="hunbal-container ">
 <p>
-<font color="colourchange">
-For any queries, please contact me by hunbalsohailweb@gmail.com
+<div id="colourtext">
+<font color="black">
+For any queries, please contact me by 
 </font>
+hunbalsohailweb@gmail.com
+</div>
 </p>
 </div>
 </div>
