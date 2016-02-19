@@ -29,7 +29,10 @@ transform: rotate(180deg);
  <body>
 <div class="hunbal-topnav hunbal-xlarge hunbal-blue colourchange">
  <center>
- <a href="http://hunbalsohail.github.io/"><i class="material-icons hunbal-xlarge">home</i>&nbsp hunbalsohail.github.io</a>
+ <li class="hunbal-dropdown-click"><a onclick="myFunction()" href="#"><i class="material-icons hunbal-xlarge">home</i>&nbsp hunbalsohail.github.io</a><div id="demo" class="hunbal-dropdown-content hunbal-white hunbal-card-4"><h6>You're already on the home page.</h6></div></li>
+<script>
+function myFunction() {document.getElementById("demo").classList.toggle("hunbal-show");}
+</script>
  <a href="http://hunbalsohail.github.io/music.html">Music</a>
  <a href="http://about:blank">Nothing</a>
  <a href="http://hunbalsohail.github.io/about.html">About</a>
