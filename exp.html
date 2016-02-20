@@ -8,9 +8,21 @@ Experimental
 <link rel="stylesheet" href="hunbal.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900,500' rel='stylesheet' type='text/css'>
+<style>
+.rot{
+
+-webkit-transition: -webkit-transform .8s ease-in-out;
+-ms-transition: -ms-transform .8s ease-in-out;
+transition: transform .8s ease-in-out;}
+.rot:hover{
+transform:rotateY(180deg)rotateX(180deg);
+-ms-transform:rotateY(180deg)rotateX(180deg);;
+-webkit-transform:rotateY(180deg)rotateX(180deg);;}
+</style>
  </head>
  <body>
-<div class="hunbal-topnav hunbal-xlarge hunbal-blue colourchange">
+<div class="hunbal-topnav hunbal-xlarge hunbal-blue colourchange rot">
+<div class="hunbal-spinpin">
  <center>
  <a href="http://hunbalsohail.github.io/"><i class="material-icons hunbal-xlarge">home</i>&nbsp hunbalsohail.github.io</a>
  <a href="http://hunbalsohail.github.io/music.html">Music</a>
@@ -20,8 +32,8 @@ Experimental
 <script>
 function myFunction() {document.getElementById("demo").classList.toggle("hunbal-show");}
 </script>
-
  </center>
+</div>
 </div>
 <br>
 <center>
@@ -41,8 +53,14 @@ You've reached the experimental page.
 </p>
 </div>
 </div>
+
+<div style="width:200px;height:200px;">
+<div class="hunbal-container">
+<img src="http://hunbalsohail.github.io/media/google.jpg">
+</div>
 </div>
 
+</div>
 </center>
  </body>
 </html>
