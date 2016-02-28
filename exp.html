@@ -11,6 +11,15 @@ Experimental
 <style>
 .midfing  {cursor:url(resource/midfing.png),url(resource/midfing.cur),auto;}
 </style>
+<style> 
+.woo {
+width: 25%;
+height: 90%;
+-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+animation: mymove 10s infinite;}
+@-webkit-keyframes mymove {20% {width: 25%;}35% {width: 50%;}45% {width: 95%;}55% {width: 95%;}75% {width: 50%;}}
+@keyframes mymove {20% {width: 25%;}35% {width: 50%;}45% {width: 95%;}55% {width: 95%;}75% {width: 50%;}}
+</style>
  </head>
  <body>
 <div class="hunbal-topnav hunbal-xlarge hunbal-blue colourchange">
@@ -45,7 +54,13 @@ You've reached the experimental page.
 </div>
 <br>
 
-<iframe src="index.html" style="resize:both;">
+<iframe src="index.html" class="woo" frameborder="0">
+Your browser doesnt support iframes, lame.
+</iframe>
+<br>
+
+<iframe src="about.html" class="woo" frameborder="0">
+Your browser doesnt support iframes, lame.
 </iframe>
 
 <br>
