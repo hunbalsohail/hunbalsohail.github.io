@@ -34,30 +34,18 @@ pre,textarea{overflow:auto}
 optgroup{font-weight:bold}
 /* End extract from normalize.css */
 html,body{font-family: 'Roboto', sans-serif;font-size:15px;line-height:1.5}
-h1,h2,h3,h4,h5,h6{font-family: 'Roboto', sans-serif;font-weight:500;margin:10px 0;
--webkit-transform: skewY(-5deg);
--moz-transform: skewY(-5deg);
--ms-transform: skewY(-5deg);
--o-transform: skewY(-5deg);
-transform: skewY(-5deg);}
+h1,h2,h3,h4,h5,h6{font-family: 'Roboto', sans-serif;font-weight:500;margin:10px 0}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
 h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 hr{height:0;border:0;border-top:1px solid #eee;margin:20px 0}
 img{margin-bottom:-5px}
 a{color:inherit}
-button{-webkit-transform: skewY(5deg);
--moz-transform: skewY(5deg);
--ms-transform: skewY(5deg);
--o-transform: skewY(5deg);
-transform: skewY(5deg);}
 table{border-collapse:collapse;border-spacing:0;width:100%;display:table}
 table,th,td{border:none}
-p{-webkit-transform: skewY(-5deg);
--moz-transform: skewY(-5deg);
--ms-transform: skewY(-5deg);
--o-transform: skewY(-5deg);
-transform: skewY(-5deg);
-padding:3em 0;}
+.colourchange {-webkit-animation: animate_bg 5s;animation: animate_bg 5s;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;}
+@keyframes animate_bg {0%   {background:#009ED4;}25%   {background:#2FC200;}50%  {background:#D40000;}75%   {background:#D6D400;}100% {background:009ED4;}}
+@keyframes animate_bg {0%   {background:#009ED4;}25%   {background:#2FC200;}50%  {background:#D40000;}75%   {background:#D6D400;}100% {background:009ED4;}}
+@-webkit-keyframes animate_bg {0%   {background:#009ED4;}25%   {background:#2FC200;}50%  {background:#D40000;}75%   {background:#D6D400;}100% {background:009ED4;}}
 .hunbal-table-all{border:1px solid #ccc}
 .hunbal-bordered tr,.hunbal-table-all tr{border-bottom:1px solid #ddd}
 .hunbal-striped tbody tr:nth-child(even){background-color:#f1f1f1}
@@ -250,7 +238,7 @@ input[type=checkbox].hunbal-check:disabled+.hunbal-validate,input[type=radio].hu
 @keyframes hunbal-spinpin{
 0%{-webkit-transform:rotate(-180deg);transform: rotate(-180deg)}
 100%{-webkit-transform:rotate(-180deg);transform:rotate(-180deg)}}
-.hunbal-container{padding:1em 16px;background-color:#FFFFFF;}
+.hunbal-container{padding:0.01em 16px}
 .hunbal-example{background-color:#f1f1f1;padding:0.01em 16px}
 .hunbal-section,.hunbal-paragraph{margin-top:16px;margin-bottom:16px}
 .hunbal-code{font-family:Consolas,"courier new";font-size:16px;line-height:1.4;width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #009688;word-wrap:break-word}
@@ -258,12 +246,7 @@ input[type=checkbox].hunbal-check:disabled+.hunbal-validate,input[type=radio].hu
 .hunbal-card{border:1px solid #ccc}
 .hunbal-card-2,.hunbal-example{box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important}
 .hunbal-card-4{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important}
-.hunbal-card-8{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
--webkit-transform: skewY(5deg);
--moz-transform: skewY(5deg);
--ms-transform: skewY(5deg);
--o-transform: skewY(5deg);
-transform: skewY(5deg);}
+.hunbal-card-8{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important}
 .hunbal-card-12{box-shadow:0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important}
 .hunbal-card-16{box-shadow:0 16px 24px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21) !important}
 .hunbal-card-24{box-shadow:0 24px 24px 0 rgba(0,0,0,0.2),0 40px 77px 0 rgba(0,0,0,0.22) !important}
