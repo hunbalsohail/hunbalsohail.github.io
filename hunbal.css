@@ -34,8 +34,8 @@ pre,textarea{overflow:auto}
 optgroup{font-weight:bold}
 /* End extract from normalize.css */
 html,body{font-family: 'Roboto', sans-serif;font-size:15px;line-height:1.5}
-body {background-color: #80ccff;background-image: url('wallpapers/bgm.png');}
-@media only screen and (min-width: 400px) {body {background-color: #80ccff;background-image: url('wallpapers/bg.png');}}
+body {background-color: #80ccff;background-image: url('wallpapers/bgm.png');background-attachment: fixed;background-repeat: no-repeat;background-size: cover;background-position: center;}
+@media only screen and (min-width: 400px) {body {background-color: #80ccff;background-image: url('wallpapers/bg.png');background-attachment: fixed;background-repeat: no-repeat;background-size: cover;background-position: center;}}
 h1,h2,h3,h4,h5,h6{font-family: 'Roboto', sans-serif;font-weight:500;margin:10px 0;
 -webkit-transform: skewY(-5deg);
 -moz-transform: skewY(-5deg);
