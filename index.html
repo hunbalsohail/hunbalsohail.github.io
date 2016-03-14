@@ -28,8 +28,11 @@ cursor:pointer;
 transform: rotate(180deg);
 }
 </style>
+<style>
+$(document).keydown(function(e){if (e.keyCode == 37) {document.getElementById('alarm').play();return false;}});
+</style>
  </head>
- <body>
+ <body onkeypress="document.getElementById('alarm').play();">
 <div class="hunbal-topnav hunbal-xlarge hunbal-blue" style="position:relative;z-index: 1;">
  <center>
  <li class="hunbal-dropdown-click"><a onclick="myFunction()" href="#"><i class="material-icons hunbal-xlarge">home</i>&nbsp hunbalsohail.github.io</a><div id="demo" class="hunbal-dropdown-content hunbal-white hunbal-card-4"><h6 class="hunbal-padding-left hunbal-padding-right">You're already on the home page.</h6></div></li>
@@ -288,6 +291,9 @@ I'm just going to make a list of the stuff i like, so you can get a better idea 
 </font>
 </div>
 </div>
+<audio id=alarm>
+    <source src=media/please.mp3>
+</audio>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
