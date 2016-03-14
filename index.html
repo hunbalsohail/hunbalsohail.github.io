@@ -28,11 +28,11 @@ cursor:pointer;
 transform: rotate(180deg);
 }
 </style>
-<style>
-$(document).keydown(function(e){if (e.keyCode == 37) {document.getElementById('alarm').play();return false;}});
-</style>
+<script type="text/javascript">
+var key = function (e) {e = e || window.event;var k = e.keyCode || e.which; if (k == 79) {document.getElementById('alarm').play();};};document.onkeydown = key;
+</script>
  </head>
- <body onkeypress="document.getElementById('alarm').play();">
+ <body>
 <div class="hunbal-topnav hunbal-xlarge hunbal-blue" style="position:relative;z-index: 1;">
  <center>
  <li class="hunbal-dropdown-click"><a onclick="myFunction()" href="#"><i class="material-icons hunbal-xlarge">home</i>&nbsp hunbalsohail.github.io</a><div id="demo" class="hunbal-dropdown-content hunbal-white hunbal-card-4"><h6 class="hunbal-padding-left hunbal-padding-right">You're already on the home page.</h6></div></li>
