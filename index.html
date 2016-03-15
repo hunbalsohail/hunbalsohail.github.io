@@ -29,7 +29,7 @@ transform: rotate(180deg);
 }
 </style>
 <script type="text/javascript">
-var key = function (e) {e = e || window.event;var k = e.keyCode || e.which; if (k == 79) {document.getElementById('alarm').play();};};document.onkeydown = key;
+var key = function (e) {e = e || window.event;var k = e.keyCode || e.which; if (k == 79) {document.getElementById('please').play();} else if (k == 87) {document.getElementById('wake').play();};};document.onkeydown = key;
 </script>
  </head>
  <body>
@@ -288,8 +288,11 @@ I'm just going to make a list of the stuff i like, so you can get a better idea 
 </font>
 </div>
 </div>
-<audio id=alarm controls hidden preload="none">
-    <source src=media/please.mp3>
+<audio id=please controls hidden preload="none">
+<source src=media/please.mp3>
+</audio>
+<audio id=wake controls hidden preload="none">
+<source src=media/wake.mp3>
 </audio>
 
 <!--Start of Tawk.to Script-->
