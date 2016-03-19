@@ -32,7 +32,7 @@ transform: rotate(180deg);
 var key = function (e) {e = e || window.event;var k = e.keyCode || e.which; if (k == 79) {document.getElementById('please').play();} else if (k == 87) {document.getElementById('wake').play();};};document.onkeydown = key;
 </script>
 <style>
-audio {display:none;preload:none;}
+audio {display:none;}
 </style>
  </head>
  <body>
@@ -291,10 +291,10 @@ I'm just going to make a list of the stuff i like, so you can get a better idea 
 </font>
 </div>
 </div>
-<audio id=please>
+<audio id=please preload="none">
 <source src=media/please.mp3>
 </audio>
-<audio id=wake>
+<audio id=wake preload="none">
 <source src=media/wake.mp3>
 </audio>
 
