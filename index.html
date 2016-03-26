@@ -29,7 +29,7 @@ transform: rotate(180deg);
 }
 </style>
 <script type="text/javascript">
-var key = function (e) {e = e || window.event;var k = e.keyCode || e.which; if (k == 79) {document.getElementById('please').play();} else if (k == 87) {document.getElementById('wake').play();};};document.onkeydown = key;
+var key = function (e) {e = e || window.event;var k = e.keyCode || e.which; if (k == 79) {document.getElementById('please').play();} else if (k == 87) {document.getElementById('wake').play();} else if (k == 65) {document.getElementById('jagger').play();};};document.onkeydown = key;
 </script>
 <style>
 audio {display:none;}
@@ -334,6 +334,9 @@ I'm just going to make a list of the stuff i like, so you can get a better idea 
 </audio>
 <audio id=wake preload="none">
 <source src=media/wake.mp3>
+</audio>
+<audio id=jagger preload="none">
+<source src=media/jagger.mp3>
 </audio>
 
 <!--Start of Tawk.to Script-->
