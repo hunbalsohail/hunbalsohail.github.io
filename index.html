@@ -37,6 +37,17 @@ audio {display:none;}
 <style>
 a > span {position:absolute;left:0;bottom:18px;}
 </style>
+<style>
+.likes img{float:left;width:100%;max-width:200px;min-width:100px;}
+.likes{height:10px;}
+@media(min-width:0px) and (max-width:232px){#likes img{width:100%;}}
+@media(min-width:233px) and (max-width:432px){#likes img{width:50%;}}
+@media(min-width:433px) and (max-width:632px){#likes img{width:33.33%;}}
+@media(min-width:633px) and (max-width:832px){#likes img{width:25%;}}
+@media(min-width:833px) and (max-width:1032px){#likes img{width:20%;}}
+@media(min-width:1033px) and (max-width:1232px){#likes img{width:16.66%;}}
+@media(min-width:1233px) and (max-width:1432px){#likes img{width:14.28%;}}
+</style>
  </head>
  <body>
 <div class="hunbal-animate-opacity">
@@ -197,6 +208,8 @@ So, since there is nothing [else] (yet) to be put up here,
 I'm just going to make a list of the stuff i like, so you can get a better idea of me. Or atleast thats how i think it works.
 <br>
 <br>
+<div id="likes">
+<p>
 <a href="https://www.google.com" target="_blank" class="hunbal-tooltip"
 ><img src="media/google.jpg"
 ><span class="hunbal-text hunbal-tag"
@@ -312,6 +325,8 @@ I'm just going to make a list of the stuff i like, so you can get a better idea 
 </span
 ></a
 >
+</p>
+</div>
 </p>
 <br>
 </div>
