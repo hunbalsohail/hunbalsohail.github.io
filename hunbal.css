@@ -126,7 +126,7 @@ img.hunbal-image,.hunbal-image img{max-width:100%;height:auto}
 .hunbal-select select:focus{color:#000;border:1px solid #009688}.hunbal-select option[disabled]{color:#009688}
 .hunbal-dropdown-click,.hunbal-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
 .hunbal-dropdown-hover:hover .hunbal-dropdown-content{display:block;z-index:1}
-.hunbal-dropdown-content{background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0}
+.hunbal-dropdown-content{background-color:#fff;display:none;position:absolute;min-width:185px;margin:0;padding:0}
 .hunbal-dropdown-content a{padding:6px 16px;display:block}
 .hunbal-dropdown-content a:hover{background-color:#ccc}
 input[type=checkbox].hunbal-check,input[type=radio].hunbal-radio{width:24px;height:24px;position:relative;top:6px}

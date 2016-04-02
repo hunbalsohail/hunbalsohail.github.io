@@ -11,6 +11,18 @@ Hunbal
 <link rel="stylesheet" href="hunbal.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,900,500' rel='stylesheet' type='text/css'>
+<script>
+function myredFunction() {var x = document.querySelectorAll(".hunbal-blue"); var i; for (i = 0; i < x.length; i++) {x[i].style.backgroundColor = "#F44336";}}
+</script>
+<script>
+function mybluFunction() {var x = document.querySelectorAll(".hunbal-blue"); var i; for (i = 0; i < x.length; i++) {x[i].style.backgroundColor = "#2196F3";}}
+</script>
+<script>
+function myyelFunction() {var x = document.querySelectorAll(".hunbal-blue"); var i; for (i = 0; i < x.length; i++) {x[i].style.backgroundColor = "#FFEB3B";}}
+</script>
+<script>
+function mygreFunction() {var x = document.querySelectorAll(".hunbal-blue"); var i; for (i = 0; i < x.length; i++) {x[i].style.backgroundColor = "#4CAF50";}}
+</script>
 <style>
 .ambi {
 -webkit-transition: all 0.5s ease 0s;
@@ -60,9 +72,12 @@ function myFunction() {document.getElementById("demo").classList.toggle("hunbal-
  <a href="http://hunbalsohail.github.io/music.html">Music</a>
  <a href="http://about:blank">Nothing</a>
  <a href="http://hunbalsohail.github.io/about.html">About</a>
-<li class="hunbal-dropdown-click"><a onclick="myotherFunction()" href="#">Change Style</a><div id="dropstyle" class="hunbal-dropdown-content hunbal-white hunbal-card-4"><h6><a href="index1.html">The colourful one</a></h6></div></li>
+<li class="hunbal-dropdown-click"><a onclick="myotherFunction()" href="#">Change Style</a><div id="dropstyle" class="hunbal-dropdown-content hunbal-white hunbal-card-4"><a href="index1.html" style="font-size:16px;">The colourful one <i class="material-icons" style="vertical-align:middle;">looks</i></a><a onclick="myotherrFunction()" href="#" style="font-size:16px;">Change Colour<i class="material-icons" style="vertical-align:middle;">expand_more</i></a><div id="dropstylee" class="hunbal-dropdown-content hunbal-white hunbal-card-4"><a onclick="myredFunction()" style="font-size:16px;">Red</a><a onclick="mybluFunction()" style="font-size:16px;">Blue</a><a onclick="myyelFunction()" style="font-size:16px;">Yellow</a><a onclick="mygreFunction()" style="font-size:16px;">Green</a></div></li>
 <script>
 function myotherFunction() {document.getElementById("dropstyle").classList.toggle("hunbal-show");}
+</script>
+<script>
+function myotherrFunction() {document.getElementById("dropstylee").classList.toggle("hunbal-show");}
 </script>
  </center>
 </div>
