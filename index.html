@@ -41,10 +41,11 @@ transform: rotate(180deg);
 }
 </style>
 <script type="text/javascript">
-var key = function (e) {e = e || window.event;var k = e.keyCode || e.which; if (k == 79) {document.getElementById('please').play();}
- else if (k == 87) {document.getElementById('wake').play();}
- else if (k == 65) {document.getElementById('jagger').play();}
- else if (k == 89) {document.getElementById('rav').play();}
+var key = function (e) {e = e || window.event;var k = e.keyCode || e.which;
+ if (k == 79) {please()}
+ else if (k == 87) {wake()}
+ else if (k == 65) {jagger()}
+ else if (k == 89) {rav()}
 ;};document.onkeydown = key;
 </script>
 <style>
@@ -409,6 +410,7 @@ I'm just going to make a list of the stuff i like, so you can get a better idea 
 </audio><audio id=rav preload="none">
 <source src=media/ravioli.mp3>
 </audio>
+<script src="music.js"></script>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
