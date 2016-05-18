@@ -47,6 +47,7 @@ var key = function (e) {e = e || window.event;var k = e.keyCode || e.which;
  else if (k == 87) {wake()}
  else if (k == 65) {jagger()}
  else if (k == 89) {rav()}
+ else if (k == 73) {live()}
 ;};document.onkeydown = key;
 </script>
 <style>
@@ -410,6 +411,9 @@ I'm just going to make a list of the stuff i like, so you can get a better idea 
 <source src=media/jagger.mp3>
 </audio><audio id=rav preload="none">
 <source src=media/ravioli.mp3>
+</audio>
+<audio loop id=live preload="none">
+<source src=media/live.mp3>
 </audio>
 <script src="music.js"></script>
 

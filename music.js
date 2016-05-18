@@ -29,3 +29,11 @@ function jagger() {
     rav.pause();
   }
 }
+function live() {
+  var live = document.getElementById("live");
+  if (live.paused) {
+    live.play();
+  } else {
+    live.pause();
+  }
+}
