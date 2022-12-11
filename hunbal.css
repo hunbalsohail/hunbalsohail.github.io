@@ -1,0 +1,37 @@
+.hunbal-animate-opacity{
+  -webkit-animation-name:opac;-webkit-animation-duration:4s;animation-name:opac;animation-duration:2s}
+  @-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+  @keyframes opac{from{opacity:0} to{opacity:1}}
+  
+
+@media only screen and (max-width: 1026px) {
+    .smallhide {
+        display: none;
+    }
+}
+
+@media (min-width: 1027px) {
+    .largehide {
+      display: none;
+    }
+  }
+  @media (min-width: 10260px) {
+    .largehide {
+      display: block;
+    }
+  }
+
+  .img-responsive { max-width: 100%; }
+
+@media (max-width: 1000px) {
+  .cropped {
+    position: relative;
+    height: 250px;
+  }
+  .cropped .img-responsive {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 150%;
+  }
+}
