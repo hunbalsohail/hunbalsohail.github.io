@@ -50,6 +50,17 @@
       padding: 0px;
     }
   }
+
+  .txt {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .txt {
+      font-size: 20px;
+    }
 </style>
 
 <body style="overflow: hidden;margin: 0;font-family: 'Montserrat';">
@@ -60,7 +71,7 @@
       <div class="col"><img src="cats.png" style="width: 100%;"></div>
     </div>
     <div>
-      <p id="demo" style="text-align: center;font-size: 50px;color: white;"></p>
+      <p id="demo" class="txt"></p>
 
       <script>
         // Set the date we're counting down to
